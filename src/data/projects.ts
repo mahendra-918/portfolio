@@ -52,6 +52,32 @@ export const projects: Project[] = [
   },
   {
     id: 4,
+    title: "Resume Agent",
+    description:
+      "An autonomous AI agent that automates job applications — from searching positions to tailoring resumes and submitting applications.",
+    longDescription:
+      "A fully autonomous AI agent that streamlines the job application process. It searches for relevant positions on LinkedIn, Internshala, Naukri, and Wellfound, tailors resumes using Groq's LLM (llama-3.3-70b-versatile), generates polished PDF/DOCX files, and submits applications via browser automation — all from a single command.",
+    tags: ["Python", "LangGraph", "Groq", "Playwright", "FastAPI"],
+    github: "https://github.com/mahendra-918/resume-agent",
+    demo: "https://github.com/mahendra-918/resume-agent",
+    featured: true,
+    gradient: "from-emerald-500 via-teal-500 to-cyan-600",
+  },
+  {
+    id: 5,
+    title: "Autonomous GitHub Bug Fixer",
+    description:
+      "An AI agent that autonomously identifies and fixes bugs in GitHub repositories and opens a pull request with the fix.",
+    longDescription:
+      "An AI-powered automation tool that takes a GitHub repository URL and issue number, analyzes the codebase to determine the root cause, generates a corrected file, and automatically opens a pull request with the fix. Built on a six-node LangGraph pipeline, it uses Groq's Llama 3.3 70B for structured LLM reasoning and exposes a REST API via FastAPI.",
+    tags: ["Python", "LangGraph", "Groq", "FastAPI", "Docker", "PyGithub"],
+    github: "https://github.com/mahendra-918/Autonomous-GitHub-Bug-Fixer-Agent",
+    demo: "https://github.com/mahendra-918/Autonomous-GitHub-Bug-Fixer-Agent",
+    featured: true,
+    gradient: "from-rose-500 via-pink-500 to-fuchsia-600",
+  },
+  {
+    id: 6,
     title: "Fast QA Chatbot (Groq)",
     description:
       "Question Answering chatbot application built with Groq for ultra-fast LLM inference.",
